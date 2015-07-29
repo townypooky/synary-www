@@ -8,6 +8,8 @@ A pile of mind map, which is automatically created daily.
 ## Requirements
 - CakePHP 2.6
 - Synary CakeApp Directory
+- jQuery 2
+- Jos de Jong Network 1.3
 
 ## Installation
 Download this on `www` directory (any name is okay)

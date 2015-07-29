@@ -1,0 +1,162 @@
+/**
+ * Main style file
+ *
+ * @todo Remove junk codes from the last project
+ * @depends reset.css
+ */
+
+
+
+/** General part **/
+.after-content { clear: both; }
+.caution { color: #ff0000; font-weight: bold; }
+time[datetime] { white-space: nowrap; }
+
+
+table.sheet tr td:first-child {
+	border-left: 1px solid #a3a3a3;
+}
+table.sheet tr td:last-child {
+	border-right: 1px solid #a3a3a3;
+}
+table.sheet tr.index td {
+	background: #c9c9c9;
+}
+table.sheet tr:nth-child(2n) td {
+	background: #c9c9c9;
+}
+
+.comparative .new-elem {
+    font-weight: bold;
+}
+.comparative .new-elem-1 {
+    color: #00aa00;
+}
+.comparative .new-elem-2 {
+    color: #006dcc;
+}
+
+/** End of general part **/
+
+
+body {
+    position: relative;
+	background-image: url('../img/bg5.gif');
+}
+
+
+@media (max-width: 700px ) {
+    #header-menu {
+        display: none;
+    }
+}
+
+#menu-current-user {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 150px;
+	padding: 8px 8px 8px 18px;
+	color: #ffffff;
+	/*background-color: #323232;*/
+	background-image: url('../img/bg5.gif');
+	border: 1px solid #333333;
+	overflow: hidden;
+	z-index: 9999;
+	cursor: pointer;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomleft: 12px;
+}
+#menu-current-user .title {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVQ4T2NkoBAwUqifYXAZsBronRAivbQGqC4UpBbZC2JA/lUgFiFgyBugvDYQv0I3AMQPA+KVBAwAqQG5FgywBSI+r8Cdjs8AXF5BcTo+A3B5BcXphAwAySN7BcPpxBgA8wpILTzU0QOYUEoEOfs/cqiTagCBGMUejQQ1ISsg5AWChgEAl04UESJYQqcAAAAASUVORK5CYII=');
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	-webkit-filter: invert(100%);
+	color: #000000;
+}
+#menu-current-user menu {
+	list-style: none;
+	padding-top: 12px;
+}
+#menu-current-user menu li {
+	padding: 0 4px 4px 16px;
+}
+#menu-current-user menu li:hover {
+	text-decoration: underline;
+}
+
+
+/* Apply the same background as body to each page */
+
+@media (max-width: 420px) {
+    body {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media (min-width: 421px) {
+}
+
+@media (max-width: 750px) {
+    .entry .content {
+        width: 100%;
+    }
+}
+@media (min-width: 751px) {
+}
+
+
+
+@media (max-width: 1400px) {
+}
+@media (min-width: 1401px) {
+}
+
+
+
+#official-announce {
+	/*background-image: url('./img/bg5.gif');*/
+	color: #999999;
+	padding: 8px 42px 3px 42px;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/* Bottom footer for page */
+#main-footer {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+
+/** Notification **/
+#menu-current-user .title.notification {
+    color: #0e29ff;
+    font-weight: bold;
+}
+
+
+
+/*****************************
+ * CSS for plugins
+ *
+ * @todo What plugin anyway ?
+ *****************************/
+.entry .table-form {
+    width: 100%;
+}
+.entry .table-form * {
+    color: #000000;
+}
+
+.radio-horizontal label {
+    display: inline-block !important;
+    margin-left: 3px;
+    margin-right: 15px;
+}
+
+
